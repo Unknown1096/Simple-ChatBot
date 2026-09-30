@@ -6,13 +6,13 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-    private static final String URL ="";
+    private static final String URL ="jdbc:mysql://db01.dbhost.dev:5051/db_454q4rg83?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata";
 
     private static final String USER =
-            "";
+            "user_454q4rg83";
 
     private static final String PASSWORD =
-            "";
+            "p454q4rg83";
 
     public static Connection getConnection() throws SQLException {
 
